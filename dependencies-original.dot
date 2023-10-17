@@ -1,0 +1,162 @@
+digraph "dependency-graph" {
+    graph[rankdir="LR"]
+    edge [
+        arrowtail="none"
+    ]
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT"[labelType="html" label="com.elsevier.recs<BR/><B>recs-data-access-spark-lib_2.11</B><BR/>0.1.115-SNAPSHOT" style=""]
+    "com.fasterxml.jackson.module:jackson-module-scala_2.11:2.11.0"[labelType="html" label="com.fasterxml.jackson.module<BR/><B>jackson-module-scala_2.11</B><BR/>2.11.0" style=""]
+    "com.fasterxml.jackson.module:jackson-module-paranamer:2.11.0"[labelType="html" label="com.fasterxml.jackson.module<BR/><B>jackson-module-paranamer</B><BR/>2.11.0" style=""]
+    "com.fasterxml.jackson.core:jackson-databind:2.11.0"[labelType="html" label="com.fasterxml.jackson.core<BR/><B>jackson-databind</B><BR/>2.11.0" style=""]
+    "com.fasterxml.jackson.core:jackson-annotations:2.11.0"[labelType="html" label="com.fasterxml.jackson.core<BR/><B>jackson-annotations</B><BR/>2.11.0" style=""]
+    "com.fasterxml.jackson.core:jackson-core:2.11.0"[labelType="html" label="com.fasterxml.jackson.core<BR/><B>jackson-core</B><BR/>2.11.0" style=""]
+    "ch.qos.logback:logback-classic:1.1.2"[labelType="html" label="ch.qos.logback<BR/><B>logback-classic</B><BR/>1.1.2" style=""]
+    "ch.qos.logback:logback-core:1.1.2"[labelType="html" label="ch.qos.logback<BR/><B>logback-core</B><BR/>1.1.2" style=""]
+    "com.typesafe.scala-logging:scala-logging_2.11:3.9.2"[labelType="html" label="com.typesafe.scala-logging<BR/><B>scala-logging_2.11</B><BR/>3.9.2" style=""]
+    "org.apache.httpcomponents:fluent-hc:4.5.9"[labelType="html" label="org.apache.httpcomponents<BR/><B>fluent-hc</B><BR/>4.5.9" style=""]
+    "org.apache.httpcomponents:httpclient:4.5.9"[labelType="html" label="org.apache.httpcomponents<BR/><B>httpclient</B><BR/>4.5.9" style=""]
+    "commons-codec:commons-codec:1.11"[labelType="html" label="commons-codec<BR/><B>commons-codec</B><BR/>1.11" style=""]
+    "org.apache.httpcomponents:httpcore:4.4.11"[labelType="html" label="org.apache.httpcomponents<BR/><B>httpcore</B><BR/>4.4.11" style=""]
+    "commons-logging:commons-logging:1.2"[labelType="html" label="commons-logging<BR/><B>commons-logging</B><BR/>1.2" style=""]
+    "com.newrelic.telemetry:telemetry-core:0.12.0"[labelType="html" label="com.newrelic.telemetry<BR/><B>telemetry-core</B><BR/>0.12.0" style=""]
+    "org.slf4j:slf4j-api:1.7.30"[labelType="html" label="org.slf4j<BR/><B>slf4j-api</B><BR/>1.7.30" style=""]
+    "org.slf4j:slf4j-api:1.7.6"[labelType="html" label="org.slf4j<BR/><B>slf4j-api</B><BR/>1.7.6" style="stroke-dasharray: 5,5"]
+    "org.slf4j:slf4j-api:1.7.26"[labelType="html" label="org.slf4j<BR/><B>slf4j-api</B><BR/>1.7.26" style="stroke-dasharray: 5,5"]
+    "com.newrelic.telemetry:dropwizard-metrics-newrelic:0.7.0"[labelType="html" label="com.newrelic.telemetry<BR/><B>dropwizard-metrics-newrelic</B><BR/>0.7.0" style=""]
+    "com.newrelic.telemetry:telemetry-http-okhttp:0.13.2"[labelType="html" label="com.newrelic.telemetry<BR/><B>telemetry-http-okhttp</B><BR/>0.13.2" style=""]
+    "com.squareup.okhttp3:okhttp:4.8.0"[labelType="html" label="com.squareup.okhttp3<BR/><B>okhttp</B><BR/>4.8.0" style=""]
+    "org.jetbrains.kotlin:kotlin-stdlib:1.3.72"[labelType="html" label="org.jetbrains.kotlin<BR/><B>kotlin-stdlib</B><BR/>1.3.72" style=""]
+    "org.jetbrains.kotlin:kotlin-stdlib:1.3.70"[labelType="html" label="org.jetbrains.kotlin<BR/><B>kotlin-stdlib</B><BR/>1.3.70" style="stroke-dasharray: 5,5"]
+    "org.jetbrains:annotations:13.0"[labelType="html" label="org.jetbrains<BR/><B>annotations</B><BR/>13.0" style=""]
+    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72"[labelType="html" label="org.jetbrains.kotlin<BR/><B>kotlin-stdlib-common</B><BR/>1.3.72" style=""]
+    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.70"[labelType="html" label="org.jetbrains.kotlin<BR/><B>kotlin-stdlib-common</B><BR/>1.3.70" style="stroke-dasharray: 5,5"]
+    "com.squareup.okio:okio:2.7.0"[labelType="html" label="com.squareup.okio<BR/><B>okio</B><BR/>2.7.0" style=""]
+    "io.dropwizard:dropwizard-metrics:2.1.0"[labelType="html" label="io.dropwizard<BR/><B>dropwizard-metrics</B><BR/>2.1.0" style=""]
+    "io.dropwizard:dropwizard-validation:2.1.0"[labelType="html" label="io.dropwizard<BR/><B>dropwizard-validation</B><BR/>2.1.0" style=""]
+    "org.glassfish:jakarta.el:3.0.4"[labelType="html" label="org.glassfish<BR/><B>jakarta.el</B><BR/>3.0.4" style=""]
+    "org.hibernate.validator:hibernate-validator:6.2.3.Final"[labelType="html" label="org.hibernate.validator<BR/><B>hibernate-validator</B><BR/>6.2.3.Final" style=""]
+    "com.thoughtworks.paranamer:paranamer:2.8"[labelType="html" label="com.thoughtworks.paranamer<BR/><B>paranamer</B><BR/>2.8" style=""]
+    "org.jboss.logging:jboss-logging:3.4.1.Final"[labelType="html" label="org.jboss.logging<BR/><B>jboss-logging</B><BR/>3.4.1.Final" style=""]
+    "jakarta.validation:jakarta.validation-api:2.0.2"[labelType="html" label="jakarta.validation<BR/><B>jakarta.validation-api</B><BR/>2.0.2" style=""]
+    "com.fasterxml:classmate:1.5.1"[labelType="html" label="com.fasterxml<BR/><B>classmate</B><BR/>1.5.1" style=""]
+    "io.dropwizard:dropwizard-jackson:2.1.0"[labelType="html" label="io.dropwizard<BR/><B>dropwizard-jackson</B><BR/>2.1.0" style=""]
+    "com.github.ben-manes.caffeine:caffeine:2.9.3"[labelType="html" label="com.github.ben-manes.caffeine<BR/><B>caffeine</B><BR/>2.9.3" style=""]
+    "org.checkerframework:checker-qual:3.19.0"[labelType="html" label="org.checkerframework<BR/><B>checker-qual</B><BR/>3.19.0" style=""]
+    "org.checkerframework:checker-qual:3.12.0"[labelType="html" label="org.checkerframework<BR/><B>checker-qual</B><BR/>3.12.0" style="stroke-dasharray: 5,5"]
+    "io.dropwizard:dropwizard-lifecycle:2.1.0"[labelType="html" label="io.dropwizard<BR/><B>dropwizard-lifecycle</B><BR/>2.1.0" style=""]
+    "io.dropwizard:dropwizard-util:2.1.0"[labelType="html" label="io.dropwizard<BR/><B>dropwizard-util</B><BR/>2.1.0" style=""]
+    "com.google.guava:guava:31.1-jre"[labelType="html" label="com.google.guava<BR/><B>guava</B><BR/>31.1-jre" style=""]
+    "com.google.j2objc:j2objc-annotations:1.3"[labelType="html" label="com.google.j2objc<BR/><B>j2objc-annotations</B><BR/>1.3" style=""]
+    "com.google.errorprone:error_prone_annotations:2.11.0"[labelType="html" label="com.google.errorprone<BR/><B>error_prone_annotations</B><BR/>2.11.0" style=""]
+    "com.google.errorprone:error_prone_annotations:2.10.0"[labelType="html" label="com.google.errorprone<BR/><B>error_prone_annotations</B><BR/>2.10.0" style="stroke-dasharray: 5,5"]
+    "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"[labelType="html" label="com.google.guava<BR/><B>listenablefuture</B><BR/>9999.0-empty-to-avoid-conflict-with-guava" style=""]
+    "com.google.guava:failureaccess:1.0.1"[labelType="html" label="com.google.guava<BR/><B>failureaccess</B><BR/>1.0.1" style=""]
+    "jakarta.servlet:jakarta.servlet-api:4.0.4"[labelType="html" label="jakarta.servlet<BR/><B>jakarta.servlet-api</B><BR/>4.0.4" style=""]
+    "org.eclipse.jetty:jetty-server:9.4.46.v20220331"[labelType="html" label="org.eclipse.jetty<BR/><B>jetty-server</B><BR/>9.4.46.v20220331" style=""]
+    "org.eclipse.jetty:jetty-http:9.4.46.v20220331"[labelType="html" label="org.eclipse.jetty<BR/><B>jetty-http</B><BR/>9.4.46.v20220331" style=""]
+    "org.eclipse.jetty:jetty-io:9.4.46.v20220331"[labelType="html" label="org.eclipse.jetty<BR/><B>jetty-io</B><BR/>9.4.46.v20220331" style=""]
+    "org.eclipse.jetty:jetty-util:9.4.46.v20220331"[labelType="html" label="org.eclipse.jetty<BR/><B>jetty-util</B><BR/>9.4.46.v20220331" style=""]
+    "com.google.code.findbugs:jsr305:3.0.2"[labelType="html" label="com.google.code.findbugs<BR/><B>jsr305</B><BR/>3.0.2" style=""]
+    "io.dropwizard.metrics:metrics-core:4.2.9"[labelType="html" label="io.dropwizard.metrics<BR/><B>metrics-core</B><BR/>4.2.9" style=""]
+    "com.github.pureconfig:pureconfig_2.11:0.13.0"[labelType="html" label="com.github.pureconfig<BR/><B>pureconfig_2.11</B><BR/>0.13.0" style=""]
+    "com.github.pureconfig:pureconfig-generic_2.11:0.13.0"[labelType="html" label="com.github.pureconfig<BR/><B>pureconfig-generic_2.11</B><BR/>0.13.0" style=""]
+    "com.chuusai:shapeless_2.11:2.3.3"[labelType="html" label="com.chuusai<BR/><B>shapeless_2.11</B><BR/>2.3.3" style=""]
+    "org.typelevel:macro-compat_2.11:1.1.1"[labelType="html" label="org.typelevel<BR/><B>macro-compat_2.11</B><BR/>1.1.1" style=""]
+    "com.github.pureconfig:pureconfig-generic-base_2.11:0.13.0"[labelType="html" label="com.github.pureconfig<BR/><B>pureconfig-generic-base_2.11</B><BR/>0.13.0" style=""]
+    "com.github.pureconfig:pureconfig-core_2.11:0.13.0"[labelType="html" label="com.github.pureconfig<BR/><B>pureconfig-core_2.11</B><BR/>0.13.0" style=""]
+    "com.github.pureconfig:pureconfig-macros_2.11:0.13.0"[labelType="html" label="com.github.pureconfig<BR/><B>pureconfig-macros_2.11</B><BR/>0.13.0" style=""]
+    "org.scala-lang:scala-reflect:2.11.12"[labelType="html" label="org.scala-lang<BR/><B>scala-reflect</B><BR/>2.11.12" style=""]
+    "com.typesafe:config:1.4.0"[labelType="html" label="com.typesafe<BR/><B>config</B><BR/>1.4.0" style=""]
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "com.fasterxml.jackson.module:jackson-module-scala_2.11:2.11.0"
+    "com.fasterxml.jackson.module:jackson-module-scala_2.11:2.11.0" -> "com.fasterxml.jackson.module:jackson-module-paranamer:2.11.0"
+    "com.fasterxml.jackson.module:jackson-module-paranamer:2.11.0" -> "com.fasterxml.jackson.core:jackson-databind:2.11.0"
+    "com.fasterxml.jackson.module:jackson-module-scala_2.11:2.11.0" -> "com.fasterxml.jackson.core:jackson-databind:2.11.0"
+    "com.fasterxml.jackson.core:jackson-databind:2.11.0" -> "com.fasterxml.jackson.core:jackson-annotations:2.11.0"
+    "com.fasterxml.jackson.module:jackson-module-scala_2.11:2.11.0" -> "com.fasterxml.jackson.core:jackson-annotations:2.11.0"
+    "com.fasterxml.jackson.core:jackson-databind:2.11.0" -> "com.fasterxml.jackson.core:jackson-core:2.11.0"
+    "com.fasterxml.jackson.module:jackson-module-scala_2.11:2.11.0" -> "com.fasterxml.jackson.core:jackson-core:2.11.0"
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "ch.qos.logback:logback-classic:1.1.2"
+    "ch.qos.logback:logback-classic:1.1.2" -> "ch.qos.logback:logback-core:1.1.2"
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "com.typesafe.scala-logging:scala-logging_2.11:3.9.2"
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "org.apache.httpcomponents:fluent-hc:4.5.9"
+    "org.apache.httpcomponents:fluent-hc:4.5.9" -> "org.apache.httpcomponents:httpclient:4.5.9"
+    "org.apache.httpcomponents:httpclient:4.5.9" -> "commons-codec:commons-codec:1.11"
+    "org.apache.httpcomponents:httpclient:4.5.9" -> "org.apache.httpcomponents:httpcore:4.4.11"
+    "org.apache.httpcomponents:fluent-hc:4.5.9" -> "commons-logging:commons-logging:1.2"
+    "org.apache.httpcomponents:httpclient:4.5.9" -> "commons-logging:commons-logging:1.2"
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "com.newrelic.telemetry:telemetry-core:0.12.0"
+    "com.newrelic.telemetry:telemetry-core:0.12.0" -> "org.slf4j:slf4j-api:1.7.30"
+    "ch.qos.logback:logback-classic:1.1.2" -> "org.slf4j:slf4j-api:1.7.6"
+    "com.typesafe.scala-logging:scala-logging_2.11:3.9.2" -> "org.slf4j:slf4j-api:1.7.26"
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "com.newrelic.telemetry:dropwizard-metrics-newrelic:0.7.0"
+    "com.newrelic.telemetry:dropwizard-metrics-newrelic:0.7.0" -> "com.newrelic.telemetry:telemetry-http-okhttp:0.13.2"
+    "com.newrelic.telemetry:telemetry-http-okhttp:0.13.2" -> "com.squareup.okhttp3:okhttp:4.8.0"
+    "com.squareup.okio:okio:2.7.0" -> "org.jetbrains.kotlin:kotlin-stdlib:1.3.70"
+    "com.squareup.okhttp3:okhttp:4.8.0" -> "org.jetbrains.kotlin:kotlin-stdlib:1.3.70"
+    "org.jetbrains.kotlin:kotlin-stdlib:1.3.72" -> "org.jetbrains:annotations:13.0"
+    "com.squareup.okio:okio:2.7.0" -> "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.70"
+    "org.jetbrains.kotlin:kotlin-stdlib:1.3.72" -> "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.70"
+    "com.squareup.okhttp3:okhttp:4.8.0" -> "com.squareup.okio:okio:2.7.0"
+    "com.newrelic.telemetry:dropwizard-metrics-newrelic:0.7.0" -> "io.dropwizard:dropwizard-metrics:2.1.0"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "io.dropwizard:dropwizard-validation:2.1.0"
+    "io.dropwizard:dropwizard-validation:2.1.0" -> "org.glassfish:jakarta.el:3.0.4"
+    "io.dropwizard:dropwizard-validation:2.1.0" -> "org.hibernate.validator:hibernate-validator:6.2.3.Final"
+    "com.fasterxml.jackson.module:jackson-module-paranamer:2.11.0" -> "com.thoughtworks.paranamer:paranamer:2.8"
+    "org.hibernate.validator:hibernate-validator:6.2.3.Final" -> "org.jboss.logging:jboss-logging:3.4.1.Final"
+    "io.dropwizard:dropwizard-validation:2.1.0" -> "jakarta.validation:jakarta.validation-api:2.0.2"
+    "org.hibernate.validator:hibernate-validator:6.2.3.Final" -> "jakarta.validation:jakarta.validation-api:2.0.2"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "jakarta.validation:jakarta.validation-api:2.0.2"
+    "io.dropwizard:dropwizard-validation:2.1.0" -> "com.fasterxml:classmate:1.5.1"
+    "org.hibernate.validator:hibernate-validator:6.2.3.Final" -> "com.fasterxml:classmate:1.5.1"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "io.dropwizard:dropwizard-jackson:2.1.0"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "com.github.ben-manes.caffeine:caffeine:2.9.3"
+    "io.dropwizard:dropwizard-jackson:2.1.0" -> "com.github.ben-manes.caffeine:caffeine:2.9.3"
+    "com.github.ben-manes.caffeine:caffeine:2.9.3" -> "org.checkerframework:checker-qual:3.19.0"
+    "com.google.guava:guava:31.1-jre" -> "org.checkerframework:checker-qual:3.12.0"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "io.dropwizard:dropwizard-lifecycle:2.1.0"
+    "io.dropwizard:dropwizard-validation:2.1.0" -> "io.dropwizard:dropwizard-util:2.1.0"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "io.dropwizard:dropwizard-util:2.1.0"
+    "io.dropwizard:dropwizard-lifecycle:2.1.0" -> "io.dropwizard:dropwizard-util:2.1.0"
+    "io.dropwizard:dropwizard-jackson:2.1.0" -> "io.dropwizard:dropwizard-util:2.1.0"
+    "io.dropwizard:dropwizard-validation:2.1.0" -> "com.google.guava:guava:31.1-jre"
+    "io.dropwizard:dropwizard-jackson:2.1.0" -> "com.google.guava:guava:31.1-jre"
+    "io.dropwizard:dropwizard-util:2.1.0" -> "com.google.guava:guava:31.1-jre"
+    "com.google.guava:guava:31.1-jre" -> "com.google.j2objc:j2objc-annotations:1.3"
+    "com.google.guava:guava:31.1-jre" -> "com.google.errorprone:error_prone_annotations:2.11.0"
+    "com.github.ben-manes.caffeine:caffeine:2.9.3" -> "com.google.errorprone:error_prone_annotations:2.10.0"
+    "com.google.guava:guava:31.1-jre" -> "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+    "com.google.guava:guava:31.1-jre" -> "com.google.guava:failureaccess:1.0.1"
+    "io.dropwizard:dropwizard-lifecycle:2.1.0" -> "jakarta.servlet:jakarta.servlet-api:4.0.4"
+    "io.dropwizard:dropwizard-lifecycle:2.1.0" -> "org.eclipse.jetty:jetty-server:9.4.46.v20220331"
+    "org.eclipse.jetty:jetty-server:9.4.46.v20220331" -> "org.eclipse.jetty:jetty-http:9.4.46.v20220331"
+    "org.eclipse.jetty:jetty-http:9.4.46.v20220331" -> "org.eclipse.jetty:jetty-io:9.4.46.v20220331"
+    "org.eclipse.jetty:jetty-server:9.4.46.v20220331" -> "org.eclipse.jetty:jetty-io:9.4.46.v20220331"
+    "org.eclipse.jetty:jetty-io:9.4.46.v20220331" -> "org.eclipse.jetty:jetty-util:9.4.46.v20220331"
+    "org.eclipse.jetty:jetty-http:9.4.46.v20220331" -> "org.eclipse.jetty:jetty-util:9.4.46.v20220331"
+    "io.dropwizard:dropwizard-lifecycle:2.1.0" -> "org.eclipse.jetty:jetty-util:9.4.46.v20220331"
+    "io.dropwizard:dropwizard-validation:2.1.0" -> "com.google.code.findbugs:jsr305:3.0.2"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "com.google.code.findbugs:jsr305:3.0.2"
+    "io.dropwizard:dropwizard-lifecycle:2.1.0" -> "com.google.code.findbugs:jsr305:3.0.2"
+    "io.dropwizard:dropwizard-jackson:2.1.0" -> "com.google.code.findbugs:jsr305:3.0.2"
+    "io.dropwizard:dropwizard-util:2.1.0" -> "com.google.code.findbugs:jsr305:3.0.2"
+    "io.dropwizard:dropwizard-metrics:2.1.0" -> "io.dropwizard.metrics:metrics-core:4.2.9"
+    "io.dropwizard:dropwizard-lifecycle:2.1.0" -> "io.dropwizard.metrics:metrics-core:4.2.9"
+    "com.newrelic.telemetry:dropwizard-metrics-newrelic:0.7.0" -> "io.dropwizard.metrics:metrics-core:4.2.9"
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "com.github.pureconfig:pureconfig_2.11:0.13.0"
+    "com.github.pureconfig:pureconfig_2.11:0.13.0" -> "com.github.pureconfig:pureconfig-generic_2.11:0.13.0"
+    "com.github.pureconfig:pureconfig-generic_2.11:0.13.0" -> "com.chuusai:shapeless_2.11:2.3.3"
+    "com.chuusai:shapeless_2.11:2.3.3" -> "org.typelevel:macro-compat_2.11:1.1.1"
+    "com.github.pureconfig:pureconfig-generic_2.11:0.13.0" -> "com.github.pureconfig:pureconfig-generic-base_2.11:0.13.0"
+    "com.github.pureconfig:pureconfig-generic-base_2.11:0.13.0" -> "com.github.pureconfig:pureconfig-core_2.11:0.13.0"
+    "com.github.pureconfig:pureconfig_2.11:0.13.0" -> "com.github.pureconfig:pureconfig-core_2.11:0.13.0"
+    "com.github.pureconfig:pureconfig-generic_2.11:0.13.0" -> "com.github.pureconfig:pureconfig-core_2.11:0.13.0"
+    "com.github.pureconfig:pureconfig-core_2.11:0.13.0" -> "com.github.pureconfig:pureconfig-macros_2.11:0.13.0"
+    "com.typesafe.scala-logging:scala-logging_2.11:3.9.2" -> "org.scala-lang:scala-reflect:2.11.12"
+    "com.github.pureconfig:pureconfig-core_2.11:0.13.0" -> "com.typesafe:config:1.4.0"
+    "com.elsevier.recs:recs-data-access-spark-lib_2.11:0.1.115-SNAPSHOT" -> "com.typesafe:config:1.4.0"
+    "org.slf4j:slf4j-api:1.7.6" -> "org.slf4j:slf4j-api:1.7.30" [label="Evicted By" style="stroke-dasharray: 5,5"]
+    "org.slf4j:slf4j-api:1.7.26" -> "org.slf4j:slf4j-api:1.7.30" [label="Evicted By" style="stroke-dasharray: 5,5"]
+    "org.jetbrains.kotlin:kotlin-stdlib:1.3.70" -> "org.jetbrains.kotlin:kotlin-stdlib:1.3.72" [label="Evicted By" style="stroke-dasharray: 5,5"]
+    "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.70" -> "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72" [label="Evicted By" style="stroke-dasharray: 5,5"]
+    "org.checkerframework:checker-qual:3.12.0" -> "org.checkerframework:checker-qual:3.19.0" [label="Evicted By" style="stroke-dasharray: 5,5"]
+    "com.google.errorprone:error_prone_annotations:2.10.0" -> "com.google.errorprone:error_prone_annotations:2.11.0" [label="Evicted By" style="stroke-dasharray: 5,5"]
+}

@@ -43,7 +43,15 @@ deactivate
 After activating `venv`,
 
 ```zsh
+# install graphviz to draw dependency graph
 python -m pip install graphviz jupyter jupyterlab --trusted-host files.pythonhosted.org --trusted-host pypi.org --trusted-host pypi.python.org --default-timeout=1000
+# install pygraphviz to parse and modify DOT file
+# https://pygraphviz.github.io/documentation/stable/install.html#macos
+pip install --use-pep517 \
+            --config-setting="--global-option=build_ext" \
+            --config-setting="--build-option=-I$(brew --prefix graphviz)/include/" \
+            --config-setting="--build-option=-L$(brew --prefix graphviz)/lib/" \
+            pygraphviz
 ```
 
 Dump it as requirements.txt
